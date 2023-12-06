@@ -1,5 +1,7 @@
 const fs = require('node:fs')
 
+/* Asincrono con call backs */
+
 /*Leer archivo de forma asincrona */
 console.log('Leyendo archivo...')
 fs.readFile('./archivo.txt', 'utf-8', (err, text) => { /* <-- Lee el archivo y espera a ejecutar el callback */
