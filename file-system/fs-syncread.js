@@ -12,3 +12,4 @@ console.log('Hacer otras tareas mientras lee el archivo...')
 /*Este es el problema de la sincronia ya que el programa funciona de forma secuencial  */
 const secondText = fs.readFileSync('./archivo-dos.txt', 'utf-8') 
 console.log(secondText)
+
