@@ -15,3 +15,4 @@ console.log('Arquitectura del sistema: ', arch())
 
 console.log('CPUs: ', cpus()) /* Información de los procesadores para escalar programas en node */
 console.log('Uptime: ', uptime() / 60 / 60) /* Tiempo que lleva encendido el sistema operativo */
+
