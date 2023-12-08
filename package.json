@@ -1,0 +1,31 @@
+{
+  "name": "node_practica",
+  "version": "1.0.0",
+  "description": "practicas de node.js para principiantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zumayamx/node_practica.git"
+  },
+  "keywords": [
+    "practica",
+    "node",
+    "node",
+    "js",
+    "juniordev",
+    "principiantes",
+    "JavaScript"
+  ],
+  "author": "José Manuel García Zumaya - zumayamx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zumayamx/node_practica/issues"
+  },
+  "homepage": "https://github.com/zumayamx/node_practica#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  }
+}
