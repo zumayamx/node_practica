@@ -14,5 +14,7 @@ findAvailablePort(desiredPort).then(port => {
     server.listen(port, () => {
         console.log(`Server listening on port http://localhost:${server.address().port}`)
     })
+}) .catch (err => {
+    console.log('Error al buscar puerto disponible, ', err)
 })
 
