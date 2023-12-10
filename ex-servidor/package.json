@@ -1,0 +1,15 @@
+{
+  "name": "ex-servidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "free-port.js",
+  "scripts": {
+    "dev": "nodemon http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "3.0.2"
+  }
+}
