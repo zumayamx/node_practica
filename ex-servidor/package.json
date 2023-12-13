@@ -4,7 +4,8 @@
   "description": "",
   "main": "free-port.js",
   "scripts": {
-    "dev": "nodemon http.js"
+    "dev": "nodemon http.js",
+    "dev2": "nodemon routing.js"
   },
   "keywords": [],
   "author": "",

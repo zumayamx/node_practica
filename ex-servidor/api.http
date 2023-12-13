@@ -1,0 +1,15 @@
+### Para recuperar información de un pokemon
+GET http://localhost:3000/pokemon/ditto
+
+### Para crear un pokemon
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+    "name": "pickachu",
+    "type": "electric",
+    "level": 10,
+    "moves": [
+        "transform"
+    ]
+}
