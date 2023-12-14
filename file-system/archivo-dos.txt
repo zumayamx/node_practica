@@ -1,0 +1,17 @@
+En Node.js, la diferencia entre operaciones asíncronas y síncronas es fundamental y tiene un gran impacto en el rendimiento y el comportamiento de las aplicaciones.
+
+Operaciones Síncronas:
+Bloqueantes: Las operaciones síncronas en Node.js bloquean el hilo principal mientras se ejecutan. Esto significa que el sistema no puede manejar 
+más solicitudes o realizar otras tareas 
+hasta que la operación actual se haya completado.
+Secuenciales: Se ejecutan de manera secuencial, una después de la otra. Cada operación debe completarse antes de que comience la siguiente.
+Simplicidad: A menudo son más fáciles de escribir y entender porque el código se ejecuta exactamente en el orden en que aparece.
+Uso: Generalmente se utilizan para scripts o aplicaciones donde el bloqueo no es un problema, como en operaciones rápidas o scripts de uso único.
+Operaciones Asíncronas:
+No bloqueantes: Las operaciones asíncronas permiten que Node.js continúe con otras tareas mientras se completa la operación. Esto se logra a través de callbacks, promesas o async/await.
+Concurrencia: Permite manejar múltiples operaciones al mismo tiempo, lo que es esencial en entornos de servidor donde se manejan múltiples solicitudes simultáneamente.
+Complejidad: Puede ser más complicado de entender y escribir debido a callbacks y manejo de errores. Sin embargo, las promesas y async/await han simplificado mucho este aspecto.
+Uso: Esencial para aplicaciones web y servidores donde el rendimiento y la capacidad de manejar múltiples solicitudes simultáneamente son críticos.
+En resumen, en Node.js, las operaciones síncronas bloquean la ejecución hasta que se completan, mientras que las operaciones asíncronas permiten que el proceso continúe con otras tareas y 
+manejen el resultado de la operación una vez que se completa, generalmente a través de un mecanismo de callback o promesas. La elección entre síncrono y asíncrono depende del contexto específico 
+y los requisitos de rendimiento de la aplicación.
