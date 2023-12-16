@@ -1,0 +1,20 @@
+app.get('/movies/:id', (req, res) => { /* path-to-regexp, ID dinamico, acceder despues (escuchar, recuperar, leer) se define :*/
+    const { id } = req.params
+ }) 
+
+ app.get('/ab+cd/', (req, res) => { /* --> abcd, abbd, abbnncd, etc*/
+    const { id } = req.params
+ })
+
+ app.get('/ab?cd/', (req, res) => { /* --> abcd, acd, abd, etc*/
+ const { id } = req.params
+})
+
+app.get('/ab(cd)?e/', (req, res) => { /* --> abe, abcde, etc*/
+const { id } = req.params
+})
+
+/* regex */
+app.get(/.*dev$/, (req, res) => { /* --> midudev, manudev, danidev, etc*/
+const { id } = req.params 
+})
